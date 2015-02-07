@@ -4,11 +4,18 @@ clear
 echo "Installing All Google Web Fonts onto your Mac"
 echo "Downloading The Fonts..."
 cd ~/Documents/
-curl -L https://codeload.github.com/qrpike/Web-Font-Load/legacy.tar.gz/master -o master.tar.gz
+curl -L https://github.com/w0ng/googlefontdirectory/tarball/master -o master.tar.gz
 echo "Extracting the fonts..."
 mkdir goog-fonts
 tar -zxf master.tar.gz -C goog-fonts
-cd goog-fonts/qrpike*
+cd goog-fonts
+cd */
+cd fonts
+find . -mindepth 2 -type f -print -exec mv {} . \;
+rm -R -- */
+rm *.txt
+rm *.json
+cd ..
 mv fonts/* /Library/Fonts/
 
 echo "Fonts Installed, Cleaning Up Files.."
