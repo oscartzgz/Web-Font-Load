@@ -1,5 +1,3 @@
-# Web Font Load
-
 
 ![image](splash.png)
 
