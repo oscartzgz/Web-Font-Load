@@ -1,8 +1,8 @@
 #!/bin/bash
-# For Debian-based systems.
+# For Arch-based Linux systems.
 
 clear
-echo "Installing all Google Web Fonts onto your Debian system"
+echo "Installing all Google Web Fonts onto your Arch system"
 echo "Downloading the fonts..."
 cd ~/Documents/
 curl -L https://github.com/w0ng/googlefontdirectory/tarball/master -o master.tar.gz
@@ -15,9 +15,9 @@ rm -R -- */
 rm *.txt
 rm *.json
 cd ..
-sudo mv fonts/* /usr/local/share/fonts/
+sudo mv fonts/* /usr/share/fonts/
 
-echo "Fonts installed, cleaning up files.."
+echo "Fonts installed; Cleaning up files..."
 cd ~/Documents/
 rm -f master.tar.gz
 rm -rf goog-fonts

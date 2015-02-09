@@ -6,19 +6,26 @@
 
 Easily install ALL of Google's Web Fonts using the following command in your terminal.
 
-####Mac Users:
+### Mac users:
 
 		curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
 
-####Debian Users:
+### Linux
+
+####Debian users:
 
 		curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_debian.sh | sh
 
-The debian install script should work for most linux distros.
+####Arch Linux users:
+
+    curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_arch.sh | sh
+
+The Debian install script should work for most Linux distros. Arch requires a special installation
+due to differences in the folder structure. You can compare the scripts to take a look at this.
 
 ### Updating:
 
-For updating fonts, just re-run this script. It will overwrite duplicates.
+To update the fonts, just re-run this script. It will overwrite duplicates.
 
 You may need to restart for Font Book to pick up the new fonts.
 
