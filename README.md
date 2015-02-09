@@ -1,9 +1,6 @@
 # Web Font Load
 
-###Visit [Web Font Load](http://webfontload.com) for more information
-
-
-Install ALL Google Web Fonts onto your mac & linux with 1 simple terminal command.
+###Install ALL Google Web Fonts onto your mac & linux with 1 simple terminal command.
 
 		curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
 
