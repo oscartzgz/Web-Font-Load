@@ -29,6 +29,10 @@ To update the fonts, just re-run this script. It will overwrite duplicates.
 
 You may need to restart for Font Book to pick up the new fonts.
 
+### Photoshop Users:
+
+When using this script, it installs A LOT of fonts. You may have to disable "Font Preview" in Photoshop.
+
 ###Like this? Please follow the authors on Twitter:
 
 [Quinton Pike - @quintonpike](https://twitter.com/QuintonPike)
