@@ -31,7 +31,7 @@ You may need to restart for Font Book to pick up the new fonts.
 
 ### Photoshop Users:
 
-When using this script, it installs A LOT of fonts. You may have to disable "Font Preview" in Photoshop.
+When using this script, it installs A LOT of ( ~1660 ) fonts. You may have to disable "Font Preview" in Photoshop.
 
 ###Like this? Please follow the authors on Twitter:
 
