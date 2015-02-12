@@ -33,6 +33,10 @@ You may need to restart for Font Book to pick up the new fonts.
 
 When using this script, it installs A LOT of ( ~1660 ) fonts. You may have to disable "Font Preview" in Photoshop.
 
+### Uninstall all Fonts: ( Mac only )
+
+	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/uninstall.sh | sh
+
 ###Like this? Please follow the authors on Twitter:
 
 [Quinton Pike - @quintonpike](https://twitter.com/QuintonPike)
