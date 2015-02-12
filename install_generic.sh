@@ -12,7 +12,7 @@ elif [[ "$osdetect" == 'Arch Linux' ]]; then
 fi
 
 clear
-echo "Installing all Google Web Fonts onto your Mac"
+echo "Installing all Google Web Fonts onto your System"
 echo "Downloading the fonts..."
 cd ~/Documents/
 curl -L https://github.com/w0ng/googlefontdirectory/tarball/master -o master.tar.gz
