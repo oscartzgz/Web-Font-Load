@@ -14,8 +14,9 @@ find . -mindepth 2 -type f -print -exec mv {} . \;
 rm -R -- */
 rm *.txt
 rm *.json
+rm *.md
 cd ..
-sudo mv fonts/* /usr/local/share/fonts/
+sudo mv goog-fonts/* /usr/local/share/fonts/
 
 echo "Fonts installed, cleaning up files.."
 cd ~/Documents/
