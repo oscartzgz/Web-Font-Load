@@ -16,7 +16,7 @@ Easily install ALL of Google's Web Fonts using the following command in your ter
 
 	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_debian.sh | sh
 
-####Arch Linux users:
+####Arch Linux Users:
 
 	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_arch.sh | sh
 
