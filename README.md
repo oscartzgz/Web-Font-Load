@@ -8,17 +8,17 @@ Easily install ALL of Google's Web Fonts using the following command in your ter
 
 ### Mac users:
 
-	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
+	curl https://raw.githubusercontent.com/picard102/Web-Font-Load/Tar-Update/install.sh | sh
 
 ### Linux
 
 ####Debian users:
 
-	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_debian.sh | sh
+	curl https://raw.githubusercontent.com/picard102/Web-Font-Load/Tar-Update/install_debian.sh | sh
 
 ####Arch Linux Users:
 
-	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_arch.sh | sh
+	curl https://raw.githubusercontent.com/picard102/Web-Font-Load/Tar-Update/install_arch.sh | sh
 
 The Debian install script should work for most Linux distros. Arch requires a special installation
 due to differences in the folder structure. You can compare the scripts to take a look at this.
@@ -35,7 +35,7 @@ When using this script, it installs A LOT of ( ~1660 ) fonts. You may have to di
 
 ### Uninstall all Fonts: ( Mac only )
 
-	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/uninstall.sh | sh
+	curl https://raw.githubusercontent.com/picard102/Web-Font-Load/Tar-Update/uninstall.sh | sh
 
 ###Like this? Please follow the authors on Twitter:
 
