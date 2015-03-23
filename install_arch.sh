@@ -5,15 +5,22 @@ clear
 echo "Installing all Google Web Fonts onto your Arch system"
 echo "Downloading the fonts..."
 cd ~/Documents/
-curl -L https://github.com/w0ng/googlefontdirectory/tarball/master -o master.tar.gz
+curl -L https://github.com/google/fonts/tarball/master -o master.tar.gz
 echo "Extracting the fonts..."
-mkdir goog-fonts
-tar -zxf master.tar.gz -C goog-fonts
+mkdir -p goog-fonts/fonts
+tar -zxf master.tar.gz -C goog-fonts/fonts
 cd goog-fonts
+cd fonts
 find . -mindepth 2 -type f -print -exec mv {} . \;
 rm -R -- */
 rm *.txt
 rm *.json
+rm *.csv
+rm *.md
+rm *.html
+rm *.py
+rm AUTHORS
+rm CONTRIBUTORS
 cd ..
 sudo mv fonts/* /usr/share/fonts/
 
