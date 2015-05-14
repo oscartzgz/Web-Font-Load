@@ -4,6 +4,7 @@
 clear
 echo "Installing all Google Web Fonts onto your Debian system"
 echo "Downloading the fonts..."
+mkdir -p ~/Documents/
 cd ~/Documents/
 curl -L https://github.com/google/fonts/tarball/master -o master.tar.gz
 echo "Extracting the fonts..."
