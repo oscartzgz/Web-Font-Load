@@ -29,5 +29,8 @@ echo "Fonts installed, cleaning up files.."
 cd ~/Documents/
 rm -f master.tar.gz
 rm -rf goog-fonts
-echo "All done! All Google Fonts installed."
 
+echo "Updating font cache..."
+fc-cache -f
+
+echo "All done! All Google Fonts installed."
