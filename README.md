@@ -22,7 +22,7 @@ Easily install ALL of Google's Web Fonts using the following command in your ter
 
 ####Fedora Linux Users:
 
-        curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_fedora.sh | sh
+	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install_fedora.sh | sh
 
 The Debian install script should work for most Linux distros. Arch requires a special installation
 due to differences in the folder structure. You can compare the scripts to take a look at this.
